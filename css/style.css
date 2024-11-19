@@ -1,0 +1,291 @@
+/* Сброс стандартных стилей  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+a,
+a:link,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+	display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+ul,
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img,
+svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+	font-style: normal;
+}
+
+input,
+textarea,
+button,
+select {
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button,
+input[type='submit'] {
+	display: inline-block;
+	box-shadow: none;
+	background-color: transparent;
+	background: none;
+	cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+	outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+/* Стили */
+
+.container {
+	max-width: 1180px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+.header {
+	margin-bottom: 50px;
+}
+
+.header-top {
+	font-size: 20px;
+	padding: 15px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	color: #097246;
+}
+
+.logo img {
+	width: 60px;
+}
+.header-list {
+	display: flex;
+	gap: 20px;
+}
+.list-item a {
+	font-weight: 500;
+	color: #097246;
+}
+
+hr {
+	height: 1px;
+	background-color: rgb(160, 159, 159);
+}
+
+.auth {
+	font-size: 22px;
+	color: #097246;
+}
+.main {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+
+.main-right {
+	display: flex;
+	text-align: justify;
+	min-height: 120px;
+	width: 900px;
+	border: 1px solid #0db3aa;
+	padding: 15px;
+}
+
+.main-right p {
+	line-height: 1.5;
+	text-transform: uppercase;
+	max-width: 900px;
+	color: #0db3aa;
+}
+
+.time-text {
+	font-weight: 600;
+	color: #0db3aa;
+	font-size: 26px;
+	margin-bottom: 25px;
+}
+.time-block {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 15px;
+	margin-bottom: 50px;
+}
+.time-block-left {
+	max-height: 500px;
+	width: 550px;
+	padding: 15px;
+	border: 1px solid #0db3aa;
+}
+.time-img {
+	height: 323px;
+	width: 608px;
+}
+.time-img-left {
+	width: 608px;
+	height: 256px;
+}
+.time-block-right {
+	font-size: 18px;
+	min-height: 350px;
+	width: 550px;
+	border: 1px solid #0db3aa;
+	padding: 15px;
+}
+.right-text-1 {
+	color: #0db3aa;
+	margin-bottom: 25px;
+}
+
+
+.form-style-9 {
+	max-width: 450px;
+	background: #fafafa;
+	padding: 30px;
+	margin: 50px auto;
+	border: 3px solid #0db3aa;
+}
+.form-style-9 ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.form-style-9 ul li {
+	display: block;
+	margin-bottom: 10px;
+	min-height: 35px;
+}
+.form-style-9 ul li .field-style {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 8px;
+	outline: none;
+	border: 1px solid #b0cfe0;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+.form-style-9 ul li .field-style:focus {
+	box-shadow: 0 0 5px #b0cfe0;
+	border: 1px solid #b0cfe0;
+}
+.form-style-9 ul li .field-split {
+	width: 49%;
+}
+.form-style-9 ul li .field-full {
+	width: 100%;
+}
+.form-style-9 ul li input.align-left {
+	float: left;
+}
+.form-style-9 ul li input.align-right {
+	float: right;
+}
+.form-style-9 ul li textarea {
+	width: 100%;
+	height: 100px;
+}
+.form-style-9 ul li input[type='button'],
+.form-style-9 ul li input[type='submit'] {
+	-moz-box-shadow: inset 0px 1px 0px 0px #3985b1;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #3985b1;
+	box-shadow: inset 0px 1px 0px 0px #3985b1;
+	background-color: #2e9455;
+	border: 1px solid #2e9455;
+	margin-left:100px;
+	cursor: pointer;
+	color: #ffffff;
+	padding: 8px 18px;
+	text-decoration: none;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+.form-style-9 ul li input[type='button']:hover,
+.form-style-9 ul li input[type='submit']:hover {
+	background: linear-gradient(to bottom, #0f4d44 5%, #1c7468 100%);
+	background-color: #0f4d44;
+}
+
+.form-h1 {
+	color: #0db3aa;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 600;
+}
